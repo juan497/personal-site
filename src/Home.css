@@ -1,0 +1,36 @@
+.home__link{
+    color: rgb(42, 219, 174);
+    text-decoration: none;
+    font-size: 20px; 
+    /* text-decoration: underline;
+    text-decoration-color: green; */
+   }
+
+.home__info{
+
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+h1{
+font-size: 50px;
+
+}
+h2{
+    font-size: 40px;
+    margin-bottom: 10px; /* Adjust as needed */
+}
+h3{
+    font-size: 30px;
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+   /* h2,h3,p {
+    orphans: 3;
+    widows: 3;
+    font-size: 60px;
+}
+
+h2,h3 {
+    page-break-after: avoid
+} */
