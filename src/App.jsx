@@ -15,6 +15,9 @@ import Home from './Home';
 import MusicVisualizer from './MusicVisualizer';
 import CueDetectionAlgo from './CueDetectionAlgo';
 import MVComponents from './MVComponents';
+import Forecaster from './Forecaster';
+import Segmentation from './Segmentation';
+import Database from './Database';
 
 
 function App() {
@@ -26,6 +29,9 @@ function App() {
         <Route path="/MusicVisualizer" element={<MusicVisualizer />} />
         <Route path='/CueDetectionAlgo' element = {<CueDetectionAlgo/>}/>
         <Route path='/MVComponents' element ={<MVComponents/>}/>
+        <Route path='/Forecaster' element ={<Forecaster/>}/>
+        <Route path='/Segmentation' element ={<Segmentation/>}/>
+        <Route path='/Database' element ={<Database/>}/>
         <Route path="*" element={<h1>404</h1>} />
       </Routes>
     </BrowserRouter>

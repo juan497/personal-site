@@ -13,6 +13,7 @@ function MVComponents() {
             <li>Micro controller that receives the data to control the LEDs to visualize the song</li>
         </ul>
     </section>
+    <img className='home__img' src='src/assets/leds.jpg'></img>
     <section>
         <h3>Validation</h3>
         <p>Validation process involved making sure each component works properly on its own before putting it all together. </p>

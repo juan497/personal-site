@@ -6,6 +6,15 @@
     text-decoration-color: green; */
    }
 
+.home__img{
+    width: 400px;
+}
+
+.home__icon{
+    width: 200px;
+}
+
+
 .home__info{
 
     margin-left: 2%;
