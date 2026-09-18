@@ -1,0 +1,13 @@
+-- fix bi, revenue from this date to this date in this store
+-- make the sql reflect kpi
+
+
+
+
+-- sql , Bo , extraction, validation  , conversion, validation , eda, ba, 
+
+
+-- forecasteing , bo, extraction, validation, eda, feature engineering, train/test, model metric to ba, and ba from eda 
+
+-- visualier , something cool to stand out,  
+    o , extraction, validation , eda, feature enginering, train test , result , conclusion

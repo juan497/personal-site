@@ -8,6 +8,7 @@ export default function Home(props) {
     <div>
       <h1>Juan Hernandez</h1>
       <img className='home__icon' src='src/assets/me.jpg'></img>
+      <h3>Bachelor of Science in Computer Science from Cal State LA</h3>
       <details >
         <summary>About Me</summary>
         <p>
@@ -33,16 +34,16 @@ export default function Home(props) {
         <h2>Coffee Shop Sales Forecaster Model</h2>
         <div>
           <p>A project that predicts weekly coffee shop sales revenue using historical transaction data.</p>
-          <img className='home__img' src='src/assets/sales.png'></img>
+          <img className='home__img' src='src/assets/sales.jpg'></img>
           <a className='home__link' href="/Forecaster">more details</a>
         </div>
       </section>
       <br />
       <section>
-        <h2>DDDD</h2>
+        <h2>End-To-End Customer Analytics Solution in MySQL</h2>
         <div>
-          <p>A project that predicts weekly coffee shop sales revenue using historical transaction data.</p>
-          <img className='home__img' src='src/assets/sales.png'></img>
+          <p> </p>
+          <img className='home__img' src='src/assets/sql.jpg'></img>
           <a className='home__link' href="/Database">more details</a>
         </div>
       </section>
