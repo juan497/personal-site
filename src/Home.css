@@ -6,6 +6,20 @@
     text-decoration-color: green; */
    }
 
+   .downtown__img {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    object-fit: cover;
+  
+    /* Adds the fade to black/transparent at the top */
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 20%);
+    mask-image: linear-gradient(to bottom, transparent 0%, black 20%);
+  }
+
 .home__img{
     width: 400px;
 }
