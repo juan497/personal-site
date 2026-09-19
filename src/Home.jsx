@@ -10,8 +10,8 @@ export default function Home(props) {
       <section>
         <h2>Cue Generating Algorithm for a Music Visualizer</h2>
         <div>
-          <p>A machine learning algorithm that generates cues to change the visuals based on the energy of a song.<a className='home__link' href="/Forecaster">more details</a></p>
-          <div className="video-container">
+          <p>A machine learning algorithm that generates cues to change the visuals based on the energy of a song.<a className='home__link' href="/CueDetectionAlgo">more details</a></p>
+          {/* <div className="video-container">
             <iframe
               width="560"
               height="315"
@@ -21,7 +21,19 @@ export default function Home(props) {
               allow="autoplay; encrypted-media; picture-in-picture"
               allowFullScreen
             />
-          </div>
+          </div> */}
+          <div className="video-container"> 
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/wODsZoH66hM?autoplay=1&mute=1&playsinline=1&rel=0" 
+    title="YouTube Video Player" 
+    frameBorder="0" 
+    allow="autoplay; encrypted-media; picture-in-picture" 
+    allowFullScreen 
+  /> 
+</div>
+
         </div>
       </section>
       <br />
