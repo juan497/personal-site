@@ -18,6 +18,7 @@ import MVComponents from './MVComponents';
 import Forecaster from './Forecaster';
 import Segmentation from './Segmentation';
 import Database from './Database';
+import AboutMe from './AboutMe';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Route path='/Forecaster' element ={<Forecaster/>}/>
         <Route path='/Segmentation' element ={<Segmentation/>}/>
         <Route path='/Database' element ={<Database/>}/>
+        <Route path='/AboutMe' element ={<AboutMe/>}/>
         <Route path="*" element={<h1>404</h1>} />
       </Routes>
     </BrowserRouter>

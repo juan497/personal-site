@@ -8,20 +8,9 @@ export default function Home(props) {
   return (
     <div>
       <section>
-        <h2>Cue Generating Algorithm for a Music Visualizer</h2>
+        <h2>RaveBoard</h2>
         <div>
-          <p>A machine learning algorithm that generates cues to change the visuals based on the energy of a song.<a className='home__link' href="/CueDetectionAlgo">more details</a></p>
-          {/* <div className="video-container">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/oU76fsW2IcE?autoplay=1&mute=1&playsinline=1"
-              title="Beastieball - Early Access Launch Trailer!"
-              frameBorder="0"
-              allow="autoplay; encrypted-media; picture-in-picture"
-              allowFullScreen
-            />
-          </div> */}
+          <p className='home__des'>A LED Music Visualizer that uses a unique Cue Generating Algorithm on mp3 files.<a className='home__link' href="/CueDetectionAlgo">more details</a></p>
           <div className="video-container"> 
   <iframe 
     width="560" 

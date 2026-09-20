@@ -1,24 +1,9 @@
 import React from 'react'
-import "./CueDetectionAlgo.css"
+import "./AboutMe.css"
 
-function CueDetectionAlgo() {
-    return (
-        <div>
-            <h1>RaveBoard</h1>
-            <section>
-                <div className="row">
-                <div className="column">
-                    <img src="src/assets/circle.gif" alt="Snow" ></img>
-                </div>
-                <div className="column">
-                    <img src="src/assets/pulse.gif" alt="Forest" ></img>
-                </div>
-                <div className="column">
-                    <img src="src/assets/circle.gif" alt="Snow" ></img>
-                </div>
-                </div>
-            </section>
-            <section>
+function AboutMe() {
+  return (
+    <div>
                 <div class="container">
   
   <div class="image-box">
@@ -36,9 +21,8 @@ function CueDetectionAlgo() {
   </div>
 
 </div>
-            </section>
-        </div>
-    )
+    </div>
+  )
 }
 
-export default CueDetectionAlgo
+export default AboutMe
