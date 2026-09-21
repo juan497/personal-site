@@ -16,22 +16,21 @@ import CueDetectionAlgo from './CueDetectionAlgo';
 import AboutMe from './AboutMe';
 import DVRPSim from './DVRPSim';
 import AmiiboSearchApp from './AmiiboSearchApp';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 
 function App() {
   return (
-      <BrowserRouter basename={import.meta.env.BASE_URL}>
-      <Header/>
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path='/CueDetectionAlgo' element = {<CueDetectionAlgo/>}/>
-        <Route path='/AboutMe' element ={<AboutMe/>}/>
-        <Route path='/DVRPSim' element ={<DVRPSim/>}/>
-        <Route path='/AmiiboSearchApp' element ={<AmiiboSearchApp/>}/>
+        <Route path="/CueDetectionAlgo" element={<CueDetectionAlgo />} />
+        <Route path="/AboutMe" element={<AboutMe />} />
+        <Route path="/DVRPSim" element={<DVRPSim />} />
         <Route path="*" element={<h1>404</h1>} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
