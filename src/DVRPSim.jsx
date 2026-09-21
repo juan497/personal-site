@@ -6,7 +6,7 @@ function DVRPSim() {
       <div class="container">
 
         <div class="image-box">
-          <img className='home__img' src='src/assets/bellman.jpg'></img>
+        <img className='home__img' src='./bellman.jpg' alt="Amiibo" />
         </div>
 
         <div class="text-content">

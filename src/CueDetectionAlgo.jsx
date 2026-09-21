@@ -8,13 +8,13 @@ function CueDetectionAlgo() {
             <section>
                 <div className="row">
                 <div className="column">
-                    <img src="src/assets/circle.gif" alt="Snow" ></img>
+                <img className='home__img' src='./circle.gif' alt="Amiibo" />
                 </div>
                 <div className="column">
-                    <img src="src/assets/pulse.gif" alt="Forest" ></img>
+                <img className='home__img' src='./pulse.gif' alt="Amiibo" />
                 </div>
                 <div className="column">
-                    <img src="src/assets/circle.gif" alt="Snow" ></img>
+                <img className='home__img' src='./circle.gif' alt="Amiibo" />
                 </div>
                 </div>
             </section>
@@ -22,7 +22,7 @@ function CueDetectionAlgo() {
                 <div class="container">
   
   <div class="image-box">
-  <img className='home__img' src='src/assets/leds.jpg'></img>
+  <img className='home__img' src='./leds.gif' alt="Amiibo" />
   </div>
 
   <div class="text-content">

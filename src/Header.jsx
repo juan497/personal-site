@@ -16,9 +16,10 @@ function Header() {
   
   {/* Flex container separates the links horizontally */}
   <div style={{ display: 'flex', gap: '24px', alignItems: 'center' }}>
-    <a className='header__link' href="/">Home</a> 
+    <Link className='home__link' to="/">Home</Link>
     <a className='header__link' href="https://github.com/juan497" > <GitHubIcon /> Visit GitHub </a> 
-    <a className='header__link' href="/AboutMe">About Me</a> 
+    <Link className='home__link' to="/AboutMe">About Me</Link>
+
   </div>
 </div>
     

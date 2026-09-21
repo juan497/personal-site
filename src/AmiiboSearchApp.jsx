@@ -6,7 +6,7 @@ function AmiiboSearchApp() {
             <div class="container">
 
                 <div class="image-box">
-                    <img className='home__img' src='src/assets/amiibo.jpg'></img>
+                <img className='home__img' src='./amiibo.jpg' alt="Amiibo" />
                 </div>
 
                 <div class="text-content">

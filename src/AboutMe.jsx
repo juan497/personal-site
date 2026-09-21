@@ -7,7 +7,7 @@ function AboutMe() {
                 <div class="container">
   
   <div class="image-box">
-  <img className='home__img' src='src/assets/irlme.jpg'></img>
+  <img className='home__img' src='./irlme.jpg' alt="Amiibo" />
   </div>
 
   <div class="text-content">
