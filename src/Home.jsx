@@ -29,20 +29,11 @@ export default function Home(props) {
       <section>
         <h2>Distance Vector Routing Protocol Simulation</h2>
         <div>
-          <p>A project that predicts weekly coffee shop sales revenue using historical transaction data.</p>
-          <img className='home__img' src='src/assets/sales.jpg'></img>
-          <a className='home__link' href="/Forecaster">more details</a>
+          <p>A Simulation of the Distance Routing Protocol using sockets and multithreading.<a className='home__link' href="/DVRPSim">more details</a></p>
+          <img className='home__img' src='src/assets/bellman.jpg'></img>
         </div>
       </section>
       <br />
-      <section>
-        <h2>S</h2>
-        <div>
-          <p>A project that predicts weekly coffee shop sales revenue using historical transaction data.</p>
-          <img className='home__img' src='src/assets/sales.jpg'></img>
-          <a className='home__link' href="/Forecaster">more details</a>
-        </div>
-      </section>
       <br />
       <img className='downtown__img' src='src/assets/downtown.jpg'></img>
       <br />

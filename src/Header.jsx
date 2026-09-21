@@ -11,7 +11,7 @@ function Header() {
   
   {/* Removed top margin to eliminate the gap with the heading */}
   <p style={{ fontSize: '29px', marginTop: '0px', marginBottom: '25px' }}>
-    Algorithms, Data Structures, Networking, Machine Learning, Data Analysis, Artist
+    Algorithms, Data Structures, Networking, Concurrency, Machine Learning, Artist
   </p> 
   
   {/* Flex container separates the links horizontally */}

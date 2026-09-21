@@ -28,11 +28,9 @@ function CueDetectionAlgo() {
   <div class="text-content">
     <h1>What is it?</h1>
     
-    <p>The Animator's Blueprint: The Beginner's Guide to Mastering Moho walks you step by step through how to design, rig, and animate using Moho's professional tools and workflows...</p>
-    
-    <p>Written by McCoy Buck, creator of Moho's official tutorials and a Moho instructor for over 12 years, and Chris Georgenes, a 25-year animation veteran...</p>
-    
-    <p>By the end, you won't just understand Moho; you'll have the foundation and essentials to bring your stories to life through animation.</p>
+        <p>The RaveBoard is an ambient LED music visualizer. I wanted to build something tactile that could interact with the real world through physical LED lighting. The project contains a variety of LED effects and animations that change based on different parts of a song.</p>
+        <p> I created a Python-based user interface that allows the user to provide a YouTube URL, obtain the audio file, and process the song for visualization. One of the most interesting parts of the project was developing and iterating on an algorithm to identify significant changes in the music. The algorithm uses K-means clustering on the song's amplitude over time to separate higher-energy sections from lower-energy sections. The resulting information is written to a JSON file containing cues that are later used to determine when different effects and animations should play.</p>
+        <p>RaveBoard taught me a great deal about designing software where multiple components have to interface with one another. It also gave me experience turning an abstract idea into a working system.</p>
   </div>
 
 </div>

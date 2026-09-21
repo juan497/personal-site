@@ -12,13 +12,10 @@ import { BrowserRouter, Routes, Route,Router } from 'react-router-dom';
 // orfanize the text
 import Header from './Header';
 import Home from './Home';
-import MusicVisualizer from './MusicVisualizer';
 import CueDetectionAlgo from './CueDetectionAlgo';
-import MVComponents from './MVComponents';
-import Forecaster from './Forecaster';
-import Segmentation from './Segmentation';
-import Database from './Database';
 import AboutMe from './AboutMe';
+import DVRPSim from './DVRPSim';
+
 
 
 function App() {
@@ -27,13 +24,9 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/MusicVisualizer" element={<MusicVisualizer />} />
         <Route path='/CueDetectionAlgo' element = {<CueDetectionAlgo/>}/>
-        <Route path='/MVComponents' element ={<MVComponents/>}/>
-        <Route path='/Forecaster' element ={<Forecaster/>}/>
-        <Route path='/Segmentation' element ={<Segmentation/>}/>
-        <Route path='/Database' element ={<Database/>}/>
         <Route path='/AboutMe' element ={<AboutMe/>}/>
+        <Route path='/DVRPSim' element ={<DVRPSim/>}/>
         <Route path="*" element={<h1>404</h1>} />
       </Routes>
     </BrowserRouter>
