@@ -22,7 +22,7 @@ function CueDetectionAlgo() {
                 <div class="container">
   
   <div class="image-box">
-  <img className='home__img' src='./leds.gif' alt="Amiibo" />
+  <img className='home__img' src='./leds.jpg' alt="Amiibo" />
   </div>
 
   <div class="text-content">

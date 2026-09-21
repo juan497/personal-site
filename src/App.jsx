@@ -17,6 +17,7 @@ import Home from './Home';
 import CueDetectionAlgo from './CueDetectionAlgo'; 
 import AboutMe from './AboutMe'; 
 import DVRPSim from './DVRPSim'; 
+import AmiiboSearchApp from './AmiiboSearchApp';
 
 function App() { 
   return ( 
@@ -28,6 +29,7 @@ function App() {
         <Route path='/CueDetectionAlgo' element={<CueDetectionAlgo/>}/> 
         <Route path='/AboutMe' element={<AboutMe/>}/> 
         <Route path='/DVRPSim' element={<DVRPSim/>}/> 
+        <Route path='/AmiiboSearchApp' element={<AmiiboSearchApp/>}/> 
         <Route path="*" element={<h1>404</h1>} /> 
       </Routes> 
     </HashRouter> 
