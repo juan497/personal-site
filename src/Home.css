@@ -21,7 +21,8 @@
   }
 
 .home__img{
-    width: 400px;
+    width: 520px;  /* Increases the width */
+    height: auto; 
 }
 
 .home__icon{

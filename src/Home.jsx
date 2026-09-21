@@ -33,6 +33,13 @@ export default function Home(props) {
           <img className='home__img' src='src/assets/bellman.jpg'></img>
         </div>
       </section>
+      <section>
+        <h2>Amiibo Search App</h2>
+        <div>
+          <p>A Amiibo.<a className='home__link' href="/AmiiboSearchApp">more details</a></p>
+          <img className='home__img' src='src/assets/amiibo.jpg'></img>
+        </div>
+      </section>
       <br />
       <br />
       <img className='downtown__img' src='src/assets/downtown.jpg'></img>
