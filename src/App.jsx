@@ -10,30 +10,29 @@
 
 
 // orfanize the text
-import { BrowserRouter, Routes, Route,Router } from 'react-router-dom';
+// 1. Import HashRouter instead of BrowserRouter
+import { HashRouter, Routes, Route } from 'react-router-dom'; 
+import Header from './Header'; 
+import Home from './Home'; 
+import CueDetectionAlgo from './CueDetectionAlgo'; 
+import AboutMe from './AboutMe'; 
+import DVRPSim from './DVRPSim'; 
 
-import Header from './Header';
-import Home from './Home';
-import CueDetectionAlgo from './CueDetectionAlgo';
-import AboutMe from './AboutMe';
-import DVRPSim from './DVRPSim';
+function App() { 
+  return ( 
+    // 2. Wrap your app in HashRouter
+    <HashRouter> 
+      <Header/> 
+      <Routes> 
+        <Route path="/" element={<Home />} /> 
+        <Route path='/CueDetectionAlgo' element={<CueDetectionAlgo/>}/> 
+        <Route path='/AboutMe' element={<AboutMe/>}/> 
+        <Route path='/DVRPSim' element={<DVRPSim/>}/> 
+        <Route path="*" element={<h1>404</h1>} /> 
+      </Routes> 
+    </HashRouter> 
+  ); 
+} 
 
-
-
-function App() {
-  return (
-    <BrowserRouter >
-    <Header/>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path='/CueDetectionAlgo' element = {<CueDetectionAlgo/>}/>
-      <Route path='/AboutMe' element ={<AboutMe/>}/>
-      <Route path='/DVRPSim' element ={<DVRPSim/>}/>
-      <Route path="*" element={<h1>404</h1>} />
-    </Routes>
-  </BrowserRouter>
-  );
-}
-
-export default App
+export default App;
 
