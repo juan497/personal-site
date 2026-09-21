@@ -37,7 +37,7 @@ export default function Home(props) {
         <h2>Amiibo Search App</h2>
         <div>
           <p>A Search Application for Nintendo Amiibo figures.<a className='home__link' href="/AmiiboSearchApp">more details</a></p>
-          <img className='home__img' src='src/assets/amiibo.jpg'></img>
+          <img className='home__img' src='./amiibo.jpg' alt="Amiibo" />
         </div>
       </section>
       <br />

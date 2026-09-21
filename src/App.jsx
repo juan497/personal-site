@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route,Router } from 'react-router-dom';
+
 
 //add a router to home page and other pages
 
@@ -10,27 +10,28 @@ import { BrowserRouter, Routes, Route,Router } from 'react-router-dom';
 
 
 // orfanize the text
+import { BrowserRouter, Routes, Route,Router } from 'react-router-dom';
+
 import Header from './Header';
 import Home from './Home';
 import CueDetectionAlgo from './CueDetectionAlgo';
 import AboutMe from './AboutMe';
 import DVRPSim from './DVRPSim';
-import AmiiboSearchApp from './AmiiboSearchApp';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/CueDetectionAlgo" element={<CueDetectionAlgo />} />
-        <Route path="/AboutMe" element={<AboutMe />} />
-        <Route path="/DVRPSim" element={<DVRPSim />} />
-        <Route path="*" element={<h1>404</h1>} />
-      </Routes>
-    </Router>
+    <BrowserRouter >
+    <Header/>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path='/CueDetectionAlgo' element = {<CueDetectionAlgo/>}/>
+      <Route path='/AboutMe' element ={<AboutMe/>}/>
+      <Route path='/DVRPSim' element ={<DVRPSim/>}/>
+      <Route path="*" element={<h1>404</h1>} />
+    </Routes>
+  </BrowserRouter>
   );
 }
 
