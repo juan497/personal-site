@@ -8,7 +8,7 @@ export default function Home(props) {
   return (
     <div>
       <section>
-        <h2>RaveBoard</h2>
+        <h2>RaveBoard_</h2>
         <div>
           <p className='home__des'>A LED Music Visualizer that uses a unique Cue Generating Algorithm on mp3 files.<a className='home__link' href="/CueDetectionAlgo">more details</a></p>
           <div className="video-container"> 
